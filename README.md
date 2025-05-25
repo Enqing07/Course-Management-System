@@ -17,9 +17,7 @@ A JavaFX-based GUI application designed for managing a 1-year certificate progra
 
 ## Installation 
 1. Run `git clone "Repository Link"`
-2. Add the following `.jar` files to your project's Reference Library:
-   - fontawesomefx.jar
-     🔗 [Download FontAwesomeFX](https://jar-download.com/artifacts/de.jensd/fontawesomefx/8.2/source-code))
+2. Add [fontawesomefx-8.2.jar](fontawesomefx-8.2.jar) file to your project's Reference Library
 5. Run the Application</br>
    Launch using `Main.java`</br></br>
    **Login Credentials** (for Testing)</br>
