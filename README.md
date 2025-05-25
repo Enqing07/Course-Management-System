@@ -12,6 +12,7 @@ Below is the screenshot showcases a key function of the Admin Panel, enabling th
 
 ### Lecturer
 - View a list of all students enrolled in their assigned courses.
+![Lecturer Panel](https://github.com/user-attachments/assets/49aa8a59-ba0f-4732-a677-385da407b0a4)
 
 ### Student
 - Self-register for courses each trimester, with prerequisite and credit load validation.
