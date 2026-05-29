@@ -20,15 +20,24 @@ Below is the screenshot showcases a key function of the Admin Panel, enabling th
 - View past, current, and future enrolled courses.
 ![Student Course Panel](https://github.com/user-attachments/assets/740726f4-d9b9-4711-8233-91870d445bfa)
 
-## Installation 
-1. Run `git clone "Repository Link"`
-2. Add [fontawesomefx-8.2.jar](fontawesomefx-8.2.jar) file to your project's Reference Library
-5. Run the Application</br>
-   Launch using `Main.java`</br></br>
-   **Login Credentials** (for Testing)</br>
-   To login as Admin => ID: `1001` Pass: `ivan123`</br>
-   To login as Lecturer => ID: `1001` Pass: `karen123`</br>
-   To login as Student => ID: `1002` Pass: `nico123`
+## Installation
+
+1. In your terminal, clone the repository:
+```bash
+git clone https://github.com/Enqing07/Course-Management-System.git
+cd Course-Management-System/Code
+```
+2. Add the [fontawesomefx-8.2.jar](fontawesomefx-8.2.jar) file (included in this repo) to your Java project's Reference Libraries.
+   
+3. Open `Code/Main.java` and run it as a Java Application.
+
+## Login Credentials (for Testing)
+
+| Role     | ID   | Password  |
+|----------|------|-----------|
+| Admin    | 1001 | ivan123   |
+| Lecturer | 1001 | karen123  |
+| Student  | 1002 | nico123   |
 
 ## Tools Used
 [![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?logo=openjdk&logoColor=white)](#)
