@@ -29,7 +29,7 @@ cd Course-Management-System/Code
 ```
 2. Add the [fontawesomefx-8.2.jar](fontawesomefx-8.2.jar) file (included in this repo) to your Java project's Reference Libraries.
    
-3. Open `Code/Main.java` and run it as a Java Application.
+3. Open `Code/Main.java` and run it.
 
 ## Login Credentials (for Testing)
 
