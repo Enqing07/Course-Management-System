@@ -7,7 +7,8 @@ import java.util.List;
 /**
  * The `adminUtil` class provides utility methods for handling admins.
  * It includes methods for finding the index of a admin in a list,
- * reading admins from a file, saving a list of admins to a file, and other related functionalities.
+ * reading admins from a file, saving a list of admins to a file, and other
+ * related functionalities.
  */
 public class adminUtil {
     /**
@@ -30,7 +31,8 @@ public class adminUtil {
     }
 
     /**
-     * Reads admin information from the CSV file and returns a list of admin objects.
+     * Reads admin information from the CSV file and returns a list of admin
+     * objects.
      *
      * @return A list of Admin objects representing the admins read from the file.
      */
@@ -43,9 +45,9 @@ public class adminUtil {
             for (int i = 0; i < lines.size(); i++) {
                 // split a line by comma
                 String[] items = lines.get(i).split(",");
-                int id = Integer.parseInt(items[0]); // convert String to int
+                int id = Integer.parseInt(items[0].trim()); // convert String to int
                 // items[1] is name, items[2] is password
-                admins.add(new Admin(id, items[1], items[2]));
+                admins.add(new Admin(id, items[1].trim(), items[2].trim()));
             }
         } catch (IOException ex) {
             ex.printStackTrace();
